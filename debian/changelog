@@ -1,0 +1,15 @@
+websocket-api (1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Change Breaks and Replaces for libservlet3.1-java to << 9 and fix dpkg
+    error when upgrading tomcat 8 from Stretch to Buster.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Switch to debhelper-compat = 12.
+
+ -- Markus Koschany <apo@debian.org>  Wed, 01 Apr 2020 21:11:54 +0200
+
+websocket-api (1.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #916245)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 14 Dec 2018 10:26:56 +0100
